@@ -17,6 +17,8 @@ typedef struct {
 } Projectile;
 
 int main(int argv, char** args) {
+
+     printf("hej hemming ");
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
         printf("Error: %s\n", SDL_GetError());
         return 1;
@@ -125,6 +127,7 @@ int main(int argv, char** args) {
                                 projectiles[1].rect.y =                                 projectiles[1].rect.y = secondShipRect.y + secondShipRect.h / 2 - PROJECTILE_SIZE / 2;
                             }
                             break;
+                            ////kjrkejgkjerk
                     }
                     break;
                 case SDL_KEYUP:
